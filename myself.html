@@ -20,7 +20,7 @@
                 <li>sushi</li>
             </ul>
             <figure>
-                <img src="https://ferret-one.akamaized.net/images/5f1f808769de330e463c5ded/original.jpeg?utime=1595900039" alt="delicious sushi">
+                <img src="https://as1.ftcdn.net/v2/jpg/00/46/85/18/1000_F_46851856_lfXqpAlO07ydE82eFiR4Yt0R6hdgMABx.jpg" alt="delicious sushi">
                 <figcaption>this is a caption: I think you love it as well!</figcaption>
             </figure>
             <h3>3 things I hate</h3>
@@ -37,8 +37,20 @@
         <section>
             <h2>Let me know your favorites!</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>Choose one describing your photo</legend>
+                    <label>
+                        <input type="radio" name="cute-cool-other" id="cute"> Cute
+                    </label>
+                    <label>
+                        <input type="radio" name="cute-cool-other" id="cool"> Cool
+                    </label>
+                    <label>
+                        <input type="radio" name="cute-cool-other" id="other"> Other
+                    </label>
+                </fieldset>
                 <input type="text" name="photourl" placeholder="your favorite photo URL" required>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </section>
     </main>    
