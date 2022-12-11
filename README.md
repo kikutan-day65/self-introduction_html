@@ -1,1 +1,1 @@
-# this repo is used for my portfolio
+# goal of this projrct is to create a web site for my portfolio
